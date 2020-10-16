@@ -7,9 +7,13 @@ import '../styles/Header.css';
 const Header = props => {
   const searchActive = props.searchActive
   return (
-    <div>
-      YUM
-      {props.children}
+    <div className="header">
+      <div className="container">
+        <div className="title">
+          Yum
+        </div>
+        {props.children}
+      </div>
     </div>
   )
 }
