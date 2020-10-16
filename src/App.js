@@ -13,6 +13,8 @@ import Dashboard from './components/Dashboard'
 import NoMatch from './components/NoMatch'
 import PrivateRoute from './components/PrivateRoute'
 
+import './styles/App.css'
+
 
 const App = props => {
   return (
