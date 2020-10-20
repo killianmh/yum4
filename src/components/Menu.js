@@ -15,7 +15,7 @@ const Menu = props => {
   return(
     <div className="menu">
       {button}
-      <Nav links={props.links} desktop={props.desktop} />
+      <Nav links={props.links} />
     </div>
   )
 }
