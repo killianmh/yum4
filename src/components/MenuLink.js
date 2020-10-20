@@ -6,7 +6,7 @@ import ModalLink from './ModalLink'
 
 const MenuLink = props => {
   return(
-    <div>
+    <div className="menuLink">
       {
         props.modalLink
           ? <li><ModalLink>{props.name}</ModalLink></li>

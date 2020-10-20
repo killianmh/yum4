@@ -7,11 +7,55 @@
   height: 100vh;
   background-color: #fff;
 }
+.nav.desktop {
+  position: relative;
+  margin-right: 55px;
+  height: inherit;
+  background-color: transparent;
+  color: #fff;
+}
 .navUl {
   position: absolute;
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
+}
+.navUl.desktop {
+  position: relative;
+  top: inherit;
+  right: inherit;
+  transform: none;
+  display: flex;
+}
+.navUl.desktop .menuLink{
+  margin-right: 20px;
+}
+.navUl.desktop .menuLink:last-child{
+  margin-right: 0;
+}
+.navUl li {
+  line-height: 1.25;
+}
+.navUl li.active {
+  position: relative;
+}
+.navUl li.active::after {
+  position: absolute;
+  content: "";
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #e65f5c;
+}
+.navUl a {
+  text-decoration: none;
+  color: #0f0326;
+  font-size: 34px;
+  font-weight: bold;
+}
+.navUl.desktop a {
+  color: #fff;
 }
 .closeMenu {
   position: absolute;
@@ -25,4 +69,10 @@
   color: #E65F5C;
   font-size: 24px;
   vertical-align: middle;
+}
+
+@media (min-width: 768px){}
+
+@media (min-width: 1025px){
+  
 }
