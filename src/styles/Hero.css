@@ -1,0 +1,11 @@
+.hero {
+  padding: 15px;
+  height: calc(100vh - 56px);
+  background-size: cover;
+  background-image: url("../assets/images/hermes-rivera-large.jpg");
+  background-position: calc(50% - 50px) center;
+}
+.hero .content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
