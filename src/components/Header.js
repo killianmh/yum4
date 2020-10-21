@@ -29,7 +29,7 @@ const Header = props => {
       },
     ]
     right = 
-    <div className="menuCont">
+    <div className="menuCont desktop">
       <Menu links={links} />
       <button className="btn alt">Login</button>
     </div>
@@ -48,7 +48,10 @@ const Header = props => {
         name: "About"
       },
     ]
-    right = <Menu links={links} />
+    right = <div className="menuCont">
+              <button className="btn alt">Login</button>
+              <Menu links={links} />
+            </div>
   }
   return (
     <div className={headerClass}>

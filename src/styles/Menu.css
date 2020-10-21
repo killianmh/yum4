@@ -5,6 +5,16 @@
 .menu.desktop {
   display: flex;
 }
+.menuCont .btn {
+  padding: 4px 12px;
+  margin-right: 6px;
+  font-size: 13px;
+}
+.menuCont.desktop .btn {
+  padding: 6px 27px;
+  margin-right: 0;
+  font-size: 20px;
+}
 .openMenu {
   background: none;
   border: none;
